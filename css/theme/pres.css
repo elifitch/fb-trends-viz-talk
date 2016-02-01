@@ -1,0 +1,236 @@
+.reveal .slides {
+  zoom: 1 !important; }
+
+.reveal .slides section {
+  text-align: left; }
+
+.reveal .emojicon {
+  font-family: sans-serif;
+  text-shadow: none; }
+
+.animated-gradient {
+  background: linear-gradient(135deg, #2980b9 0%, #9B59B6 100%);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute; }
+
+.reveal pre {
+  box-shadow: none; }
+
+.reveal {
+  background-color: #FAFAFA; }
+  .reveal .stack {
+    position: relative;
+    min-height: 400px; }
+  .reveal .stack__item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+  color: #000;
+  text-transform: none;
+  font-weight: inherit;
+  line-height: 1;
+  font-family: 'adelle sans'; }
+
+.reveal {
+  font-size: 32px; }
+
+.reveal h1 {
+  font-size: 3.77em; }
+
+.reveal h2 {
+  font-size: 2.11em; }
+
+.reveal h3 {
+  font-size: 1.55em; }
+
+.reveal h4 {
+  font-size: 1em; }
+
+.reveal li h3 {
+  font-size: 50px; }
+
+.text-img.text-img.text-img.text-img {
+  margin: 0;
+  background: none;
+  border: none;
+  box-shadow: none;
+  vertical-align: middle; }
+
+h2 .text-img {
+  height: 2.11em; }
+
+h1 .text-img {
+  height: 3.77em; }
+  h1 .text-img:after {
+    content: initial; }
+
+canvas {
+  visibility: visible !important;
+  opacity: 0.1;
+  transition: opacity 0.2s; }
+
+canvas.out {
+  opacity: 0;
+  transition: opacity 0.2s; }
+
+canvas.force-visible {
+  opacity: 1 !important;
+  transition: opacity 0.6s; }
+
+.js-random-anim span {
+  display: inline-block; }
+
+.img--expandable {
+  background: white !important; }
+
+.img--expandable:hover {
+  transform: scale(1.5) translateY(-25%); }
+
+h1, .alpha {
+  position: relative;
+  width: auto;
+  display: inline-block;
+  text-align: center; }
+  h1:after, .alpha:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    z-index: -1;
+    width: 100%;
+    height: 10px;
+    background-color: #BEF03E; }
+
+.no-underline:after {
+  background-color: transparent; }
+
+.reveal .meme {
+  font-family: 'impact' !important;
+  font-size: 5em;
+  color: #fff;
+  text-transform: uppercase;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 55vh; }
+  .reveal .meme:after {
+    display: none; }
+
+h2, .beta {
+  text-align: left; }
+
+.text-center {
+  text-align: center !important; }
+
+.color-white {
+  color: #fff !important; }
+
+.list-heading {
+  position: relative;
+  color: red;
+  width: auto;
+  display: inline-block; }
+  .list-heading:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 3px;
+    z-index: -1;
+    width: 100%;
+    height: 5px;
+    background-color: #BEF03E; }
+
+.reveal ul {
+  list-style-type: none;
+  margin: 0;
+  padding-top: 40px;
+  width: 100%; }
+  .reveal ul li {
+    margin-bottom: 40px; }
+
+.reveal .embed {
+  width: 100%;
+  height: 60vh;
+  max-width: none; }
+  .reveal .embed--full {
+    position: absolute;
+    top: -624%;
+    left: -10%;
+    height: 100vh;
+    max-height: none;
+    width: 100vw; }
+    .reveal .embed--full-shim {
+      height: 99vh; }
+
+.text-left {
+  text-align: left; }
+
+.iframe-lock iframe {
+  pointer-events: none; }
+
+.video-bg {
+  background-color: rgba(0, 0, 0, 0.9) !important; }
+
+.dg.ac {
+  display: none; }
+  .dg.ac.show {
+    display: block; }
+
+.relative-full {
+  position: relative;
+  width: 100%;
+  height: 100%; }
+
+.bottom {
+  position: absolute;
+  bottom: 0; }
+
+.bottom--left {
+  left: 0; }
+
+.bottom--right {
+  right: 0; }
+
+.bottom--center {
+  left: 50%;
+  transform: translateX(-50%); }
+
+.thanks path {
+  fill: none;
+  stroke-width: 3;
+  stroke: white;
+  stroke-linejoin: round; }
+
+.thanks .draw {
+  stroke-dashoffset: 0; }
+
+.t__stick {
+  stroke-dasharray: 140px;
+  stroke-dashoffset: 140px; }
+
+.t__hat {
+  stroke-dasharray: 210px;
+  stroke-dashoffset: 210px; }
+
+.hanks {
+  stroke-dasharray: 1300px;
+  stroke-dashoffset: 1300px; }
+
+.expl__dot {
+  stroke-dasharray: 20px;
+  stroke-dashoffset: 20px; }
+
+.expl__stroke {
+  stroke-dasharray: 100px;
+  stroke-dashoffset: 100px; }
+
+.underline {
+  stroke-dasharray: 370px;
+  stroke-dashoffset: 370px; }

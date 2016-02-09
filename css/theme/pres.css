@@ -108,6 +108,9 @@ h1, .alpha {
 .no-underline:after {
   background-color: transparent; }
 
+.push-down-underline:after {
+  bottom: -0.2em; }
+
 .reveal .meme {
   font-family: 'impact' !important;
   font-size: 5em;
@@ -231,3 +234,22 @@ h2, .beta {
 .underline {
   stroke-dasharray: 370px;
   stroke-dashoffset: 370px; }
+
+.contact {
+  opacity: 0;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: all 0.2s;
+  text-align: center; }
+  .contact.show {
+    opacity: 1; }
+  .contact h3 {
+    width: auto;
+    display: inline-block; }
+    .contact h3:first-child {
+      float: left; }
+    .contact h3:last-child {
+      float: right; }

@@ -172,3 +172,10 @@ Reveal.addEventListener('slidechanged', function(event) {
   
 });
 
+Reveal.addEventListener( 'fragmentshown', function( event ) {
+    console.log($(event.fragment).attr('data-show-contact'));
+    if( $(event.fragment).attr('data-show-contact') ) {
+      $('.contact').addClass('show');
+    }
+} );
+
